@@ -1,0 +1,356 @@
+.hoverbox-blog-grid a.button {
+	color: #b6872d;
+	border: 1px solid #b6872d;
+	padding: 2px 15px;
+	opacity: 1;
+	z-index: 1009;
+	font-size: 10px;
+	letter-spacing: 3px;
+	text-decoration:none;
+	display:inline-block;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:25px;	
+	transition: background-color 0.5s, color 0.75s;
+}
+.hoverbox-blog-grid {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 3em 0 0 0;
+	width: 100%;
+	list-style: none;
+}
+.hoverbox-blog-grid .one-full {
+	width: 100%;
+	float: left;
+}
+.hoverbox-blog-grid .one-half {
+	width: 50%;
+	float: left;
+}
+.hoverbox-blog-grid .one-forth {
+	width: 25%;
+}
+.hoverbox-blog-grid .three-forth {
+	width: 75%;
+}
+/* Common style */
+.hoverbox-blog-grid figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	margin: -0.135em 0;
+	//width: 33.333%;
+	height: 200px;
+	background: silver;
+	cursor: pointer;
+	
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-position: center center;
+}
+.hoverbox-blog-grid .double-height {
+	height: 400px;
+}
+.hoverbox-blog-grid figure img {	
+	position: relative;
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+	opacity:0;
+}
+.hoverbox-blog-grid figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-size: 16px;
+	backface-visibility: hidden;
+	transition: transform 0.35s;
+}
+.hoverbox-blog-grid figure figcaption div {
+	margin-top:40px;
+}
+.hoverbox-blog-grid figure figcaption div>span.cat {
+	position:relative;
+	font-size:10px !important;
+	line-height:16px !important;
+	text-transform:uppercase;
+	padding-left:20px;
+}
+.hoverbox-blog-grid figure figcaption div>span.cat:before {
+	content: '';
+	width:10px;
+    border-bottom: solid 2px currentColor;
+    position: absolute;
+    left: 0;
+	top:calc(50% - 1px);
+    z-index: 1;	
+}
+.hoverbox-blog-grid figure figcaption p {
+	display:none;
+}
+.hoverbox-blog-grid figure.one-full figcaption p  {
+	display:inherit;
+}
+.hoverbox-blog-grid figure figcaption::after {
+	content: '';
+	border-style: solid;
+	border-width: 20px;
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.hoverbox-blog-grid figure figcaption::before,
+.hoverbox-blog-grid figure figcaption::after {
+	pointer-events: none;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.hoverbox-blog-grid figure a.anchor {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.hoverbox-blog-grid figure h2 {
+	display: block;
+	z-index: 1002;
+	font-weight: 300;
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+	top: 20%;
+}
+.hoverbox-blog-grid figure.double-height h2 {
+	top: 40%;
+}
+.hoverbox-blog-grid figure p {
+	opacity: 0;
+	letter-spacing: 1px;
+	z-index: 1001;
+	position:relative;
+	text-transform: none;
+	backface-visibility: hidden;
+	transition: opacity 0.35s;
+	margin: 5px auto;
+	float: none;
+	width: 100%;
+	display: block;
+	right: auto;
+	left: auto;
+	padding-top:52px !important;
+}
+.hoverbox-blog-grid figure.double-height p {
+	top: 60%;
+}
+.hoverbox-blog-grid figure:hover p {
+	opacity: 1;	
+}
+.hoverbox-blog-grid figure h2 {
+	transition: transform 0.35s;
+}
+.hoverbox-blog-grid figure:hover h2 {
+	transition-delay: 0.15s;
+}
+/*------------------*/
+/***** Slide Up *****/
+/*------------------*/
+figure.effect-slideup figcaption {
+	top: auto;
+	bottom: 0;
+	transform: translate3d(0,200%,0);
+}
+figure.effect-slideup figcaption>div {
+    position: absolute;
+    top: 50%;
+	margin-top:0;
+	padding:0 70px;
+    transform: translateY(-50%);
+}
+figure.effect-slideup.double-height figcaption {
+	height: 50%;
+}
+figure.effect-slideup.double-height figcaption h2 {
+	font-size:20px !important;
+	line-height:26px !important;
+}
+figure.effect-slideup figcaption::after {
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #ffffff;
+	border-left-color: transparent;
+	left: 45%;
+	top: -35px;
+}
+figure.effect-slideup h2 {
+	transform: translate3d(0,200%,0);
+}
+figure.effect-slideup:hover figcaption,
+figure.effect-slideup:hover h2 {
+	transform: translate3d(0,0,0);
+}
+/*--------------------*/
+/***** Slide Down *****/
+/*--------------------*/
+figure.effect-slidedown figcaption {
+	bottom: auto;
+	top: 0;
+	transform: translate3d(0,-200%,0);
+	text-align:center;
+}
+figure.effect-slidedown figcaption div {
+    position: absolute;
+    top: 50%;
+	width:100%;
+	margin-top:0;
+	padding:0 70px;
+    transform: translateY(-50%);	
+}
+figure.effect-slidedown figcaption h2 {
+	font-size:20px !important;
+	line-height:26px !important;
+}
+figure.effect-slidedown.double-height figcaption {
+	height: 50%;
+}
+figure.effect-slidedown figcaption::after {
+	border-top-color: #ffffff;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	left: 45%;
+	bottom: -35px;
+}
+figure.effect-slidedown h2 {
+	transform: translate3d(0,-200%,0);
+}
+figure.effect-slidedown:hover figcaption,
+figure.effect-slidedown:hover h2 {
+	transform: translate3d(0,0,0);
+}
+/*--------------------*/
+/***** Slide Left *****/
+/*--------------------*/
+figure.effect-slideleft figcaption {
+	width: 50%;
+	transform: translate3d(-200%,0,0);		
+}
+figure.effect-slideleft figcaption>div {
+    position: absolute;
+    top: 50%;
+	margin-top:0;
+	padding:0 40px;
+    transform: translateY(-50%);	
+}
+figure.effect-slideleft.one-full figcaption>div {
+	padding:0 70px;
+}
+figure.effect-slideleft figcaption h2 {
+	font-size:14px !important;
+	line-height:20px !important;
+}
+figure.effect-slideleft.one-full figcaption h2 {
+	font-size:30px !important;
+	line-height:36px !important;
+}
+figure.effect-slideleft.one-full figcaption h2:after {
+	content: '';
+	width:60px;
+    border-bottom: solid 2px currentColor;
+    position: absolute;
+    left: 0;
+    bottom:-30px;
+    z-index: 1;	
+}
+figure.effect-slideleft figcaption::after {
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: #ffffff;
+	right: -35px;
+	top: 45%;
+}
+figure.effect-slideleft h2 {
+	transform: translate3d(-200%,0,0);
+}
+figure.effect-slideleft:hover figcaption,
+figure.effect-slideleft:hover h2 {
+	transform: translate3d(0,0,0);
+}
+/*--------------------*/
+/***** Slide Right *****/
+/*--------------------*/
+figure.effect-slideright figcaption {
+	width: 50%;
+	transform: translate3d(210%,0,0);
+}
+figure.effect-slideright figcaption>div {
+    position: absolute;
+    top: 50%;
+	width:100%;
+	margin-top:0;
+	padding:0 40px;
+    transform: translateY(-50%);	
+	text-align:right;
+}
+figure.effect-slideright figcaption h2 {
+	font-size:14px !important;
+	line-height:20px !important;
+}
+figure.effect-slideright figcaption::after {
+	border-top-color: transparent;
+	border-right-color: #ffffff;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	left: -35px;
+	top: 45%;
+}
+figure.effect-slideright h2 {
+	transform: translate3d(200%,0,0);
+}
+figure.effect-slideright:hover figcaption {
+	transform: translate3d(100%,0,0);
+}
+figure.effect-slideright:hover h2 {
+	transform: translate3d(0,0,0);
+}
+
+/* MEDIA SCREEN SIZES */
+@media screen and (max-width: 1200px) {
+	.hoverbox-blog-grid figure {
+		width: auto;
+		float: left;
+	}
+	.hoverbox-blog-grid figure img {
+	}
+	.hoverbox-blog-grid figure figcaption {
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 900px) {
+	
+	.hoverbox-blog-grid figure {
+		width: 50%;
+	}
+	.hoverbox-blog-grid figure img {
+		min-width: 100%;
+	}
+	.hoverbox-blog-grid figure figcaption {
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 664px) {
+	.hoverbox-blog-grid .one-half {
+		width: 100%;
+	}
+	.hoverbox-blog-grid figure {
+		width: 100%;
+	}
+}

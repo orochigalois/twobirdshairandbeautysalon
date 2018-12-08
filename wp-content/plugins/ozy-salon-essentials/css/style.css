@@ -1,0 +1,31 @@
+#ozy_bulk_post_editor_wrapper {
+	position: relative;
+}
+#ozy_bulk_post_editor_thumb{
+	display: none;
+	position: absolute;
+	width: 150px;
+	top: 0;
+	left: 0;
+	border: 1px solid #dedede;
+	background:#fff;
+}
+#ozy_bulk_post_editor_thumb>img{
+	display:block;
+}
+#ozy_bulk_post_editor_loader {
+	display:none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8) url(../images/loader.gif) center center no-repeat;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+#ozy_bulk_post_editor_loader>span{
+	display:inline-block;
+	padding-top: 200px;
+}

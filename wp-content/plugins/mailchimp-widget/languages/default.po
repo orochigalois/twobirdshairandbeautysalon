@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-15 11:08+0200\n"
+"PO-Revision-Date: 2015-11-15 11:08+0200\n"
+"Last-Translator: Ozy Themes <ozy@ozythemes.com>\n"
+"Language-Team: OzyThemes <ozy@ozythemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/ns_mc_plugin.class.php:42
+msgid "Donate"
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:64
+msgid "What you're trying to do looks a little shady."
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:80
+msgid "MailChimp Widget Settings"
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:84
+msgid ""
+"Enter a valid MailChimp API key here to get started. Once you've done that, "
+"you can use the MailChimp Widget from the Widgets menu. You will need to "
+"have at least MailChimp list set up before the using the widget."
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:99
+msgid "Save Changes"
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:105
+msgid ""
+"You need to have the PHP Client URL library enabled for this plugin to work. "
+"You can find more information about installing it <a href=\"http://php.net/"
+"manual/en/book.curl.php\">here</a>."
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:115
+msgid ""
+"You'll need to set up the MailChimp signup widget plugin options before "
+"using it. "
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:115
+msgid "You can make your changes"
+msgstr ""
+
+#: lib/ns_mc_plugin.class.php:115
+msgid "here"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:22
+msgid "There was a problem processing your submission."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:23
+msgid "Subscribe"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:24
+msgid ""
+"Thank you for joining our mailing list. Please check your email for a "
+"confirmation link."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:25
+msgid "Sign up for our mailing list."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:26
+msgid "Displays a sign-up form for a MailChimp mailing list."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:27
+msgid "NEWSLETTER"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:66
+msgid "General Settings"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:68
+msgid "Title :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:72
+msgid "Select a Mailing List :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:84
+msgid "This is the list your users will be signing up for in your sidebar."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:86
+msgid "Sign Up Button Text :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:89
+msgid "Personal Information"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:90
+msgid ""
+"These fields won't (and shouldn't) be required. Should the widget form "
+"collect users' first and last names?"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:93
+msgid "Collect first name."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:96
+msgid "Collect last name."
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:98
+msgid "Notifications"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:99
+msgid ""
+"Use these fields to customize what your visitors see after they submit the "
+"form"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:101
+msgid "Success :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:105
+msgid "Failure :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:284
+msgid "First Name :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:290
+msgid "Last Name :"
+msgstr ""
+
+#: lib/ns_widget_mailchimp.class.php:296 lib/ns_widget_mailchimp.class.php:297
+msgid "Email Address"
+msgstr ""

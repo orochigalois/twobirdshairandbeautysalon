@@ -1,0 +1,61 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:30
+  	*/
+
+@font-face {
+  font-family: "Flaticon1";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon1";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="oic-fi1-"]:before, [class*=" oic-fi1-"]:before,
+[class^="oic-fi1-"]:after, [class*=" oic-fi1-"]:after {   
+	font-family: Flaticon1;
+	/*font-size: 20px;*/
+	font-style: normal;
+	/*margin-left: 20px;*/
+}
+
+.oic-fi1-barber-shop:before { content: "\f100"; }
+.oic-fi1-barette:before { content: "\f101"; }
+.oic-fi1-brush:before { content: "\f102"; }
+.oic-fi1-cologne:before { content: "\f103"; }
+.oic-fi1-comb:before { content: "\f104"; }
+.oic-fi1-comb-1:before { content: "\f105"; }
+.oic-fi1-comb-2:before { content: "\f106"; }
+.oic-fi1-comb-3:before { content: "\f107"; }
+.oic-fi1-comb-4:before { content: "\f108"; }
+.oic-fi1-cosmetic:before { content: "\f109"; }
+.oic-fi1-cream:before { content: "\f10a"; }
+.oic-fi1-cream-1:before { content: "\f10b"; }
+.oic-fi1-curling:before { content: "\f10c"; }
+.oic-fi1-electric-razor:before { content: "\f10d"; }
+.oic-fi1-hair-cut:before { content: "\f10e"; }
+.oic-fi1-hair-spray:before { content: "\f10f"; }
+.oic-fi1-hairdresser-chair:before { content: "\f110"; }
+.oic-fi1-hairdryer:before { content: "\f111"; }
+.oic-fi1-lipstick:before { content: "\f112"; }
+.oic-fi1-liquid-soap:before { content: "\f113"; }
+.oic-fi1-lotion:before { content: "\f114"; }
+.oic-fi1-mirror:before { content: "\f115"; }
+.oic-fi1-mirror-1:before { content: "\f116"; }
+.oic-fi1-razor:before { content: "\f117"; }
+.oic-fi1-razor-1:before { content: "\f118"; }
+.oic-fi1-scissors:before { content: "\f119"; }
+.oic-fi1-soap:before { content: "\f11a"; }
+.oic-fi1-spray:before { content: "\f11b"; }
+.oic-fi1-straightener:before { content: "\f11c"; }
+.oic-fi1-towel:before { content: "\f11d"; }

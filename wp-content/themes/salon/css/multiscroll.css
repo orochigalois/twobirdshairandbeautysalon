@@ -1,0 +1,145 @@
+/*!
+ * multiscroll.js 0.1.7 Beta
+ * https://github.com/alvarotrigo/multiscroll.js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
+ */
+html, body {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#main {
+	height:100%;
+}
+.ms-section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ms-left .ms-section,
+.ms-right .ms-section {
+    background-repeat: repeat-y;
+    background-size: 200% auto;
+}
+.ms-right .ms-section {
+    background-position: top right;	
+}
+.ms-section.ms-table{
+    display: table;
+    width: 100%;
+}
+.ms-tableCell {
+	position:relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.ms-tableCell>.content {
+    display: block;
+    margin-left: 10%;
+	margin-right:10%;
+    position: absolute;
+	top:50%;
+	transform:translateY(-50%);
+	-ms-transform:translateY(50%);
+}
+.ms-easing,
+#multiscroll-nav {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+#multiscroll-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+body.navigation-is-open #multiscroll-nav {
+	right:-300px !important;
+}
+#multiscroll-nav.right {
+    right: 17px;
+}
+#multiscroll-nav.left {
+    left: 17px;
+}
+#multiscroll-nav ul{
+  margin: 0;
+  padding: 0;
+}
+#multiscroll-nav li{
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    position:relative;
+}
+#multiscroll-nav li a{
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#multiscroll-nav li .active span{
+    background: #333;
+}
+#multiscroll-nav span{
+    top: 2px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.multiscroll-tooltip {
+    position: absolute;
+    color: #fff;
+    font-size: 14px !important;
+    top: -10px;
+    white-space: nowrap;
+    max-width: 220px;
+	padding:5px 10px;
+	background-color:#000 !important;
+	color:#fff !important;
+}
+.multiscroll-tooltip.right {
+    right: 20px;
+}
+.multiscroll-tooltip.left {
+    left: 20px;
+}
+@media only screen and (max-width: 768px) {
+	.ms-left, .ms-right {
+		position:relative !important;
+		width:100% !important;
+	}
+	.ms-section>.content {
+		display: block;
+		margin-left: 10%;
+		margin-right:10%;
+		position: absolute;
+		top:50%;
+		transform:translateY(-50%);
+		-ms-transform:translateY(50%);
+	}
+	.ms-section,
+	.ms-left .ms-section {
+		background-size:cover !important;
+	}
+	.ms-section.hide-on-mobile-true {
+		display:none !important;
+	}
+}

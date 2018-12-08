@@ -1,0 +1,131 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:19
+  	*/
+
+@font-face {
+  font-family: "Flaticon2";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon2";
+    src: url("./Flaticon.svg#Flaticon2") format("svg");
+  }
+}
+
+[class^="oic-fi2-"]:before, [class*=" oic-fi2-"]:before,
+[class^="oic-fi2-"]:after, [class*=" oic-fi2-"]:after {   
+	font-family: Flaticon2;
+	/*font-size: 20px;*/
+	font-style: normal;
+	/*margin-left: 20px;*/
+}
+
+.oic-fi2-aloe-vera:before { content: "\f100"; }
+.oic-fi2-aplicator-bottle:before { content: "\f101"; }
+.oic-fi2-bamboo:before { content: "\f102"; }
+.oic-fi2-barber-shop:before { content: "\f103"; }
+.oic-fi2-bath-salts-bomb:before { content: "\f104"; }
+.oic-fi2-bath-sponge:before { content: "\f105"; }
+.oic-fi2-beauty-salon-chair:before { content: "\f106"; }
+.oic-fi2-big-makeup-box:before { content: "\f107"; }
+.oic-fi2-big-moustache:before { content: "\f108"; }
+.oic-fi2-big-razor-blade:before { content: "\f109"; }
+.oic-fi2-big-scale:before { content: "\f10a"; }
+.oic-fi2-bobby-pins:before { content: "\f10b"; }
+.oic-fi2-candle-light:before { content: "\f10c"; }
+.oic-fi2-cream:before { content: "\f10d"; }
+.oic-fi2-cream-tube:before { content: "\f10e"; }
+.oic-fi2-cucumber-slices-on-face:before { content: "\f10f"; }
+.oic-fi2-curler-with-pin:before { content: "\f110"; }
+.oic-fi2-curling-wand:before { content: "\f111"; }
+.oic-fi2-disposable-razor:before { content: "\f112"; }
+.oic-fi2-electric-shaver:before { content: "\f113"; }
+.oic-fi2-exfoliating-mitt:before { content: "\f114"; }
+.oic-fi2-eye-pencil:before { content: "\f115"; }
+.oic-fi2-eyelashes-curler:before { content: "\f116"; }
+.oic-fi2-facial-cream:before { content: "\f117"; }
+.oic-fi2-feet-cream:before { content: "\f118"; }
+.oic-fi2-finger-with-nail:before { content: "\f119"; }
+.oic-fi2-flat-iron:before { content: "\f11a"; }
+.oic-fi2-foam:before { content: "\f11b"; }
+.oic-fi2-foam-curler:before { content: "\f11c"; }
+.oic-fi2-folded-towel:before { content: "\f11d"; }
+.oic-fi2-french-perfume:before { content: "\f11e"; }
+.oic-fi2-hair-clamp:before { content: "\f11f"; }
+.oic-fi2-hair-clipper:before { content: "\f120"; }
+.oic-fi2-hair-comb:before { content: "\f121"; }
+.oic-fi2-hair-foam:before { content: "\f122"; }
+.oic-fi2-hair-razor:before { content: "\f123"; }
+.oic-fi2-hair-sample:before { content: "\f124"; }
+.oic-fi2-hair-scissors:before { content: "\f125"; }
+.oic-fi2-hair-spray:before { content: "\f126"; }
+.oic-fi2-hair-washer-sink:before { content: "\f127"; }
+.oic-fi2-hairbrush:before { content: "\f128"; }
+.oic-fi2-hairdryer-facing-left:before { content: "\f129"; }
+.oic-fi2-hairdryer-facing-left-1:before { content: "\f12a"; }
+.oic-fi2-hand-mirror:before { content: "\f12b"; }
+.oic-fi2-hand-mirror-1:before { content: "\f12c"; }
+.oic-fi2-inclined-bottle:before { content: "\f12d"; }
+.oic-fi2-inclined-comb:before { content: "\f12e"; }
+.oic-fi2-inclined-hairbrush:before { content: "\f12f"; }
+.oic-fi2-inclined-lipstick:before { content: "\f130"; }
+.oic-fi2-inclined-makeup-brush:before { content: "\f131"; }
+.oic-fi2-liquid-lipstick:before { content: "\f132"; }
+.oic-fi2-liquid-makeup:before { content: "\f133"; }
+.oic-fi2-liquid-soap:before { content: "\f134"; }
+.oic-fi2-little-makeup-box:before { content: "\f135"; }
+.oic-fi2-makeup-brush:before { content: "\f136"; }
+.oic-fi2-makeup-brush-1:before { content: "\f137"; }
+.oic-fi2-makeup-mirror:before { content: "\f138"; }
+.oic-fi2-makeup-set:before { content: "\f139"; }
+.oic-fi2-manicure-scissors:before { content: "\f13a"; }
+.oic-fi2-mascara:before { content: "\f13b"; }
+.oic-fi2-men-cream:before { content: "\f13c"; }
+.oic-fi2-mortar-bowl:before { content: "\f13d"; }
+.oic-fi2-moustache-product:before { content: "\f13e"; }
+.oic-fi2-nail-brush:before { content: "\f13f"; }
+.oic-fi2-nail-file:before { content: "\f140"; }
+.oic-fi2-nail-polish:before { content: "\f141"; }
+.oic-fi2-nail-polish-removal:before { content: "\f142"; }
+.oic-fi2-one-candle:before { content: "\f143"; }
+.oic-fi2-one-comb:before { content: "\f144"; }
+.oic-fi2-one-foot:before { content: "\f145"; }
+.oic-fi2-open-hair-scissors:before { content: "\f146"; }
+.oic-fi2-perfume-bottle:before { content: "\f147"; }
+.oic-fi2-round-perfume-bottle:before { content: "\f148"; }
+.oic-fi2-serum:before { content: "\f149"; }
+.oic-fi2-shampoo-bottle:before { content: "\f14a"; }
+.oic-fi2-shampoo-bottle-1:before { content: "\f14b"; }
+.oic-fi2-shaving-brush:before { content: "\f14c"; }
+.oic-fi2-shower-head:before { content: "\f14d"; }
+.oic-fi2-soap-bar:before { content: "\f14e"; }
+.oic-fi2-sponge:before { content: "\f14f"; }
+.oic-fi2-stand-hairdryer:before { content: "\f150"; }
+.oic-fi2-straight-razor:before { content: "\f151"; }
+.oic-fi2-three-stones:before { content: "\f152"; }
+.oic-fi2-tint-bowl:before { content: "\f153"; }
+.oic-fi2-tint-brush:before { content: "\f154"; }
+.oic-fi2-toothbrush:before { content: "\f155"; }
+.oic-fi2-tweezers:before { content: "\f156"; }
+.oic-fi2-two-eyelashes:before { content: "\f157"; }
+.oic-fi2-two-flip-flops:before { content: "\f158"; }
+.oic-fi2-vial:before { content: "\f159"; }
+.oic-fi2-vintage-razor:before { content: "\f15a"; }
+.oic-fi2-water-spray:before { content: "\f15b"; }
+.oic-fi2-wet-wipes:before { content: "\f15c"; }
+.oic-fi2-woman-eye:before { content: "\f15d"; }
+.oic-fi2-woman-face:before { content: "\f15e"; }
+.oic-fi2-woman-lips:before { content: "\f15f"; }
+.oic-fi2-women-comb:before { content: "\f160"; }
+.oic-fi2-women-comb-1:before { content: "\f161"; }
+.oic-fi2-women-makeup:before { content: "\f162"; }
+.oic-fi2-women-waist:before { content: "\f163"; }

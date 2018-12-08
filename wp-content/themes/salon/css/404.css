@@ -1,0 +1,174 @@
+body.error404 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+body.error404 #main {
+	position: relative;
+    height: 100vh;	
+}
+
+body.error404 #footer,
+body.error404 #footer-widget-bar {
+	display:none !important;
+}
+
+body.error404 #content h1 {
+	font-size:106px !important;
+	font-weight:700;
+	line-height:100% !important;
+	color: hsla(0, 0%, 0%, .9);
+	letter-spacing: 5px;
+	animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+
+body.error404 #content h2 {
+	font-size:30px !important;
+	font-weight:700;
+	line-height:110% !important;	
+	white-space: nowrap;
+}
+
+body.error404 #content p {
+	font-size:20px !important;
+	font-weight:100;
+	line-height:110% !important;	
+	white-space: nowrap;
+}
+
+body.error404 #content button {
+	color:#000;
+}
+body.error404 #content {
+	padding:240px 0 240px 224px;
+	padding:20vh 0 20vh 224px;
+	overflow:visible;
+}
+@media only screen and (max-width: 920px) {
+	body.error404 #content p,
+	body.error404 #content h2 {
+		white-space:normal;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#content {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+		overflow:auto;
+	}	
+	body.error404 #content span {
+		display:none !important;
+	}
+}
+body.error404 #content span {
+	position:absolute;
+	left:0;
+	display:inline-block;
+	background:url(../images/assets/404.png) no-repeat;
+	background-size:cover;
+	width:185px;
+	height:185px;
+}
+body.error404 .vc_btn3.vc_btn3-color-white.vc_btn3-style-modern {
+    color: #000 !important;
+    border-color: #FFF;
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.01) 0,rgba(0,0,0,.02) 100%);
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.01) 0,rgba(0,0,0,.02) 100%);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.01) 0,rgba(0,0,0,.02) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03000000', endColorstr='#05000000', GradientType=0);
+}
+body.error404 .vc_btn3.vc_btn3-size-md {
+    font-size: 14px;
+    padding: 14px 20px;
+}
+body.error404 .vc_btn3.vc_btn3-shape-rounded {border-radius: 5px;}
+body.error404 .vc_general.vc_btn3 {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    background-color: transparent;
+    color: #5472D2;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    top: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    line-height: normal;
+    font-size: 14px;
+    padding: 14px 20px;
+}
+body.error404 .vc_general.vc_btn3, .wpb_button:hover, a.wpb_button_a, a.wpb_button_a:hover {text-decoration: none;}

@@ -1,0 +1,1454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ozy-salon-essentials\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-04 13:32+0300\n"
+"PO-Revision-Date: 2017-01-04 13:32+0300\n"
+"Last-Translator: Ozy Themes <ozy@ozythemes.com>\n"
+"Language-Team: freevision <team@freevision.me>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;_n_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: importer/parsers.php:42 importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:67 importer/parsers.php:72 importer/parsers.php:262
+#: importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/radium-importer.php:226
+msgid "Demo already imported"
+msgstr ""
+
+#: importer/radium-importer.php:246
+msgid "Import Again"
+msgstr ""
+
+#: importer/radium-importer.php:250
+msgid "Import Demo Data"
+msgstr ""
+
+#: importer/radium-importer.php:481
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:539
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: importer/radium-importer.php:612
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: importer/radium-importer.php:634
+msgid "Site does not support widget"
+msgstr ""
+
+#: importer/radium-importer.php:657
+msgid "Widget already exists"
+msgstr ""
+
+#: importer/radium-importer.php:706
+msgid "Imported"
+msgstr ""
+
+#: importer/radium-importer.php:709
+msgid "Imported to Inactive"
+msgstr ""
+
+#: importer/radium-importer.php:716
+msgid "No Title"
+msgstr ""
+
+#: importer/wordpress-importer.php:135 importer/wordpress-importer.php:144
+#: importer/wordpress-importer.php:195 importer/wordpress-importer.php:199
+#: importer/wordpress-importer.php:208
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:136
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:200
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:216
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:267
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:268
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:270
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:280
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:283
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:287
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:300
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:311
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:314
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:322
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:324
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:325
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:375
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:512 importer/wordpress-importer.php:653
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:560
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:619
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:784
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:791
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:854
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:867
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:911
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:917
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:924
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:929
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:935
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: importer/wordpress-importer.php:1130
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:23
+msgid ""
+"This widget will get posts from your Twitter account. To set necessary "
+"parameters visit Settings > ozy Essentials section."
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:27
+msgid "(Salon) Twitter"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:80
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:117
+msgid "LATEST TWEET"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:119
+msgid "FOLLOW US ON TWITTER"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:125 ozy-salon-essentials-widgets.php:198
+#: ozy-salon-essentials-widgets.php:260 ozy-salon-essentials-widgets.php:393
+msgid "Title:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:130
+msgid "Username:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:135
+msgid "Sub Title:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:140
+msgid "Post Count:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:155
+msgid ""
+"This widget will put social site icons which previously set on Theme Options "
+"> Social panel."
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:159
+msgid "(Salon) Social Bar"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:194
+msgid "Follow Us"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:214
+msgid "This widget will display custom menu from selected menu."
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:218
+msgid "(Salon) Custom Menu"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:256
+msgid "Custom Menu"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:265
+msgid "Menu:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:289
+msgid "This widget will display latest posts in multiple view modes."
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:293
+msgid "(Salon) Latest Posts"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:389
+msgid "Latest Posts"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:398
+msgid "Type:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:412
+msgid "Post Type:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:432
+msgid "Order:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:446
+msgid "Order By:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:460
+msgid "Count:"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:473
+msgid "(Salon) Flickr Widget for user photo stream!"
+msgstr ""
+
+#: ozy-salon-essentials-widgets.php:514
+msgid "Invalid flickr user ID."
+msgstr ""
+
+#: ozy-salon-essentials.php:36 ozy-salon-essentials.php:37
+msgid "Sidebars"
+msgstr ""
+
+#: ozy-salon-essentials.php:68 ozy-salon-essentials.php:69
+msgid "Portfolio"
+msgstr ""
+
+#: ozy-salon-essentials.php:70
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:71
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:72
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:73
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:74
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ozy-salon-essentials.php:75
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: ozy-salon-essentials.php:76
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: ozy-salon-essentials.php:98
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ozy-salon-essentials.php:99
+msgid "Portfolio Category"
+msgstr ""
+
+#: ozy-salon-essentials.php:100
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ozy-salon-essentials.php:101
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: ozy-salon-essentials.php:102
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ozy-salon-essentials.php:103
+msgid "Parent Portfolio Categories"
+msgstr ""
+
+#: ozy-salon-essentials.php:104
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ozy-salon-essentials.php:105
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ozy-salon-essentials.php:106
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ozy-salon-essentials.php:107
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ozy-salon-essentials.php:108
+msgid "New Portfolio Category"
+msgstr ""
+
+#: ozy-salon-essentials.php:419 ozy-salon-essentials.php:420
+msgid "Documentation"
+msgstr ""
+
+#: ozy-salon-essentials.php:526
+msgid "Image / Video Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:536 ozy-salon-essentials.php:1092
+#: ozy-salon-essentials.php:1155 ozy-salon-essentials.php:1254
+#: ozy-salon-essentials.php:1327 ozy-salon-essentials.php:1559
+#: ozy-salon-essentials.php:1681 ozy-salon-essentials.php:1781
+#: ozy-salon-essentials.php:1895 ozy-salon-essentials.php:2100
+#: ozy-salon-essentials.php:2746 ozy-salon-essentials.php:2863
+#: ozy-salon-essentials.php:3022 ozy-salon-essentials.php:3248
+#: ozy-salon-essentials.php:3704 ozy-salon-essentials.php:3825
+msgid "Title"
+msgstr ""
+
+#: ozy-salon-essentials.php:540
+msgid "Title of your box."
+msgstr ""
+
+#: ozy-salon-essentials.php:544 ozy-salon-essentials.php:2762
+msgid "Excerpt"
+msgstr ""
+
+#: ozy-salon-essentials.php:548
+msgid "Enter a short text to display under your title."
+msgstr ""
+
+#: ozy-salon-essentials.php:552 ozy-salon-essentials.php:1100
+#: ozy-salon-essentials.php:1708 ozy-salon-essentials.php:1814
+#: ozy-salon-essentials.php:1940 ozy-salon-essentials.php:2085
+#: ozy-salon-essentials.php:2801 ozy-salon-essentials.php:3256
+#: ozy-salon-essentials.php:3447 ozy-salon-essentials.php:3737
+msgid "Link"
+msgstr ""
+
+#: ozy-salon-essentials.php:559
+msgid "Video URL"
+msgstr ""
+
+#: ozy-salon-essentials.php:563
+msgid "When used, Link entry will be ignored."
+msgstr ""
+
+#: ozy-salon-essentials.php:567 ozy-salon-essentials.php:3263
+msgid "Foregound Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:574 ozy-salon-essentials.php:833
+#: ozy-salon-essentials.php:1229
+msgid "Background Image"
+msgstr ""
+
+#: ozy-salon-essentials.php:578 ozy-salon-essentials.php:2742
+#: ozy-salon-essentials.php:3244
+msgid "Select image for your team member."
+msgstr ""
+
+#: ozy-salon-essentials.php:582
+msgid "Overlay Background Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:588
+msgid "Use Hover?"
+msgstr ""
+
+#: ozy-salon-essentials.php:633
+msgid "YouTube Embed"
+msgstr ""
+
+#: ozy-salon-essentials.php:642
+msgid "Video Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:644
+msgid "16:9"
+msgstr ""
+
+#: ozy-salon-essentials.php:644
+msgid "4:3"
+msgstr ""
+
+#: ozy-salon-essentials.php:649
+msgid "Embed Video ID"
+msgstr ""
+
+#: ozy-salon-essentials.php:653
+msgid ""
+"YouTube Embed Video ID. eq. https://www.youtube.com/watch?v=<strong style="
+"\"color:red\">3sey-GFl1SQ</strong>, the bold - red part is your video ID."
+msgstr ""
+
+#: ozy-salon-essentials.php:657
+msgid "Poster Image"
+msgstr ""
+
+#: ozy-salon-essentials.php:661
+msgid "Set a poster image for your video player."
+msgstr ""
+
+#: ozy-salon-essentials.php:749
+msgid "Panel Align"
+msgstr ""
+
+#: ozy-salon-essentials.php:800
+msgid "Multi Scroll Panel"
+msgstr ""
+
+#: ozy-salon-essentials.php:826 ozy-salon-essentials.php:1247
+#: ozy-salon-essentials.php:3697 ozy-salon-essentials.php:3963
+msgid "Background Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:837
+msgid "Select a background image for your panel."
+msgstr ""
+
+#: ozy-salon-essentials.php:1000
+msgid "Show Dots"
+msgstr ""
+
+#: ozy-salon-essentials.php:1003
+msgid "Show navigation dots on this carousel."
+msgstr ""
+
+#: ozy-salon-essentials.php:1007
+msgid "Show Arrows"
+msgstr ""
+
+#: ozy-salon-essentials.php:1010
+msgid "Show navigation arrows on this carousel."
+msgstr ""
+
+#: ozy-salon-essentials.php:1073
+msgid "Carousel Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:1084 ozy-salon-essentials.php:1695
+#: ozy-salon-essentials.php:1795 ozy-salon-essentials.php:1903
+#: ozy-salon-essentials.php:3408 ozy-salon-essentials.php:3542
+#: ozy-salon-essentials.php:3683 ozy-salon-essentials.php:3810
+msgid "Image"
+msgstr ""
+
+#: ozy-salon-essentials.php:1088
+msgid "Select an image for your item."
+msgstr ""
+
+#: ozy-salon-essentials.php:1096
+msgid "Title for your carousel item."
+msgstr ""
+
+#: ozy-salon-essentials.php:1145
+msgid "Expandable Call Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:1158
+msgid ""
+"PLEASE NOTE: Maximum 5 elements will be used to show, after 5 entry rest "
+"will be ignored for each wrapper."
+msgstr ""
+
+#: ozy-salon-essentials.php:1220
+msgid "Expandable Call Box Content"
+msgstr ""
+
+#: ozy-salon-essentials.php:1235 ozy-salon-essentials.php:3710
+msgid "Title Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:1241 ozy-salon-essentials.php:1701
+#: ozy-salon-essentials.php:1801 ozy-salon-essentials.php:1924
+#: ozy-salon-essentials.php:3850
+msgid "Foreground Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:1261 ozy-salon-essentials.php:1568
+#: ozy-salon-essentials.php:2130
+msgid "Content"
+msgstr ""
+
+#: ozy-salon-essentials.php:1264 ozy-salon-essentials.php:1458
+#: ozy-salon-essentials.php:1466 ozy-salon-essentials.php:1474
+#: ozy-salon-essentials.php:1482 ozy-salon-essentials.php:1490
+msgid ""
+"This field is not required. Fill only when you need multiple columns on your "
+"row"
+msgstr ""
+
+#: ozy-salon-essentials.php:1317
+msgid "Price List"
+msgstr ""
+
+#: ozy-salon-essentials.php:1333 ozy-salon-essentials.php:2619
+#: ozy-salon-essentials.php:2754 ozy-salon-essentials.php:3717
+msgid "Sub Title"
+msgstr ""
+
+#: ozy-salon-essentials.php:1341
+msgid "Columnt Title #1"
+msgstr ""
+
+#: ozy-salon-essentials.php:1348
+msgid "Columnt Title #2"
+msgstr ""
+
+#: ozy-salon-essentials.php:1355
+msgid "Columnt Title #3"
+msgstr ""
+
+#: ozy-salon-essentials.php:1362
+msgid "Columnt Title #4"
+msgstr ""
+
+#: ozy-salon-essentials.php:1369
+msgid "Columnt Title #5"
+msgstr ""
+
+#: ozy-salon-essentials.php:1376
+msgid "Columnt Title #6"
+msgstr ""
+
+#: ozy-salon-essentials.php:1426
+msgid "Price List Row"
+msgstr ""
+
+#: ozy-salon-essentials.php:1434 ozy-salon-essentials.php:2028
+#: ozy-salon-essentials.php:3431
+msgid "Icon"
+msgstr ""
+
+#: ozy-salon-essentials.php:1441
+msgid "Label"
+msgstr ""
+
+#: ozy-salon-essentials.php:1448
+msgid "Value #1"
+msgstr ""
+
+#: ozy-salon-essentials.php:1455
+msgid "Value #2"
+msgstr ""
+
+#: ozy-salon-essentials.php:1463
+msgid "Value #3"
+msgstr ""
+
+#: ozy-salon-essentials.php:1471
+msgid "Value #4"
+msgstr ""
+
+#: ozy-salon-essentials.php:1479
+msgid "Value #5"
+msgstr ""
+
+#: ozy-salon-essentials.php:1487
+msgid "Value #6"
+msgstr ""
+
+#: ozy-salon-essentials.php:1494
+msgid "Featured"
+msgstr ""
+
+#: ozy-salon-essentials.php:1549
+msgid "Price Table"
+msgstr ""
+
+#: ozy-salon-essentials.php:1560 ozy-salon-essentials.php:1896
+msgid "TITLE GOES HERE"
+msgstr ""
+
+#: ozy-salon-essentials.php:1574
+msgid "Price"
+msgstr ""
+
+#: ozy-salon-essentials.php:1575
+msgid "$ 100"
+msgstr ""
+
+#: ozy-salon-essentials.php:1582 ozy-salon-essentials.php:1716
+#: ozy-salon-essentials.php:1822 ozy-salon-essentials.php:1955
+#: ozy-salon-essentials.php:3462 ozy-salon-essentials.php:3550
+#: ozy-salon-essentials.php:3605 ozy-salon-essentials.php:3858
+msgid "Extra class name"
+msgstr ""
+
+#: ozy-salon-essentials.php:1584 ozy-salon-essentials.php:1718
+#: ozy-salon-essentials.php:1824 ozy-salon-essentials.php:1957
+#: ozy-salon-essentials.php:3464 ozy-salon-essentials.php:3552
+#: ozy-salon-essentials.php:3607 ozy-salon-essentials.php:3860
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ozy-salon-essentials.php:1588
+msgid "Box Heading Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:1597 ozy-salon-essentials.php:2356
+msgid "Font Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:1598
+msgid "100%"
+msgstr ""
+
+#: ozy-salon-essentials.php:1605 ozy-salon-essentials.php:3925
+msgid "Text Align"
+msgstr ""
+
+#: ozy-salon-essentials.php:1614
+msgid "Price Font Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:1615
+msgid "45px"
+msgstr ""
+
+#: ozy-salon-essentials.php:1618
+msgid "Please only use px values."
+msgstr ""
+
+#: ozy-salon-essentials.php:1671
+msgid "Call to Action With Image"
+msgstr ""
+
+#: ozy-salon-essentials.php:1682 ozy-salon-essentials.php:1782
+msgid "Title Goes Here"
+msgstr ""
+
+#: ozy-salon-essentials.php:1688 ozy-salon-essentials.php:1788
+msgid "Subtitle"
+msgstr ""
+
+#: ozy-salon-essentials.php:1689 ozy-salon-essentials.php:1789
+msgid "Subtitle Goes Here"
+msgstr ""
+
+#: ozy-salon-essentials.php:1771
+msgid "Fancy Hover Image Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:1807
+msgid "Subtitle Foreground Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:1885
+msgid "Simple Hover Image Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:1911
+msgid "Hover Caption"
+msgstr ""
+
+#: ozy-salon-essentials.php:1917
+msgid "Main Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:1932
+msgid "Video Path"
+msgstr ""
+
+#: ozy-salon-essentials.php:1935
+msgid "Use only YouTube and Vimeo like services"
+msgstr ""
+
+#: ozy-salon-essentials.php:1946 ozy-salon-essentials.php:2092
+#: ozy-salon-essentials.php:3453
+msgid "Link Target"
+msgstr ""
+
+#: ozy-salon-essentials.php:1950 ozy-salon-essentials.php:3457
+msgid "Select link target window."
+msgstr ""
+
+#: ozy-salon-essentials.php:2019
+msgid "Title With Icon"
+msgstr ""
+
+#: ozy-salon-essentials.php:2032 ozy-salon-essentials.php:2081
+msgid "Title heading style."
+msgstr ""
+
+#: ozy-salon-essentials.php:2035
+msgid "Icon Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:2037
+msgid "medium"
+msgstr ""
+
+#: ozy-salon-essentials.php:2037
+msgid "large"
+msgstr ""
+
+#: ozy-salon-essentials.php:2037
+msgid "xlarge"
+msgstr ""
+
+#: ozy-salon-essentials.php:2037
+msgid "xxlarge"
+msgstr ""
+
+#: ozy-salon-essentials.php:2037
+msgid "xxxlarge"
+msgstr ""
+
+#: ozy-salon-essentials.php:2039
+msgid "Size of the Icon."
+msgstr ""
+
+#: ozy-salon-essentials.php:2042
+msgid "Icon Position"
+msgstr ""
+
+#: ozy-salon-essentials.php:2044
+msgid "left"
+msgstr ""
+
+#: ozy-salon-essentials.php:2044
+msgid "right"
+msgstr ""
+
+#: ozy-salon-essentials.php:2044
+msgid "top"
+msgstr ""
+
+#: ozy-salon-essentials.php:2046 ozy-salon-essentials.php:2060
+msgid "Position of the Icon."
+msgstr ""
+
+#: ozy-salon-essentials.php:2049
+msgid "Icon Alternative Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2053
+msgid "This field is not required."
+msgstr ""
+
+#: ozy-salon-essentials.php:2056
+msgid "Icon Background Type"
+msgstr ""
+
+#: ozy-salon-essentials.php:2058
+msgid "rectangle"
+msgstr ""
+
+#: ozy-salon-essentials.php:2058
+msgid "rounded"
+msgstr ""
+
+#: ozy-salon-essentials.php:2058
+msgid "circle"
+msgstr ""
+
+#: ozy-salon-essentials.php:2058
+msgid "clear"
+msgstr ""
+
+#: ozy-salon-essentials.php:2063
+msgid "Icon Background Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2067
+msgid "Background color of Icon."
+msgstr ""
+
+#: ozy-salon-essentials.php:2070
+msgid "Icon Shadow Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2074
+msgid "Shadow color of Icon."
+msgstr ""
+
+#: ozy-salon-essentials.php:2077
+msgid "Heading Style"
+msgstr ""
+
+#: ozy-salon-essentials.php:2089
+msgid "Enter full path."
+msgstr ""
+
+#: ozy-salon-essentials.php:2096
+msgid ""
+"Select link target window. fancybox will launch an lightbox window for "
+"images, and fancybox-media will launch a lightbox window for frames/video."
+msgstr ""
+
+#: ozy-salon-essentials.php:2103
+msgid "Enter your title here"
+msgstr ""
+
+#: ozy-salon-essentials.php:2104
+msgid "Content of the title."
+msgstr ""
+
+#: ozy-salon-essentials.php:2107 ozy-salon-essentials.php:2348
+msgid "Font Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2111
+msgid "This option will affect Title and Content color."
+msgstr ""
+
+#: ozy-salon-essentials.php:2114
+msgid "Connected"
+msgstr ""
+
+#: ozy-salon-essentials.php:2118
+msgid "Select yes to connect elements to next one with a dashed border."
+msgstr ""
+
+#: ozy-salon-essentials.php:2121 ozy-salon-essentials.php:2241
+#: ozy-salon-essentials.php:3969
+msgid "Border Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2133
+msgid "Type your content here."
+msgstr ""
+
+#: ozy-salon-essentials.php:2195
+msgid "Separator With Caption"
+msgstr ""
+
+#: ozy-salon-essentials.php:2205
+msgid "Caption Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:2212 ozy-salon-essentials.php:2532
+#: ozy-salon-essentials.php:2535 ozy-salon-essentials.php:3416
+msgid "Caption"
+msgstr ""
+
+#: ozy-salon-essentials.php:2215
+msgid "Enter your caption here"
+msgstr ""
+
+#: ozy-salon-essentials.php:2216
+msgid "Caption of the divider."
+msgstr ""
+
+#: ozy-salon-essentials.php:2220
+msgid "Caption Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2227 ozy-salon-essentials.php:3983
+msgid "Border Style"
+msgstr ""
+
+#: ozy-salon-essentials.php:2234
+msgid "Border Size"
+msgstr ""
+
+#: ozy-salon-essentials.php:2248
+msgid "Caption Align"
+msgstr ""
+
+#: ozy-salon-essentials.php:2252
+msgid "Caption align."
+msgstr ""
+
+#: ozy-salon-essentials.php:2256
+msgid "Caption Position"
+msgstr ""
+
+#: ozy-salon-essentials.php:2260
+msgid "Caption position."
+msgstr ""
+
+#: ozy-salon-essentials.php:2263
+msgid "More Customization"
+msgstr ""
+
+#: ozy-salon-essentials.php:2269 ozy-salon-essentials.php:3917
+msgid "Width"
+msgstr ""
+
+#: ozy-salon-essentials.php:2277 ozy-salon-essentials.php:3845
+msgid "Align"
+msgstr ""
+
+#: ozy-salon-essentials.php:2330
+msgid "Typewriter"
+msgstr ""
+
+#: ozy-salon-essentials.php:2341
+msgid "Static Caption"
+msgstr ""
+
+#: ozy-salon-essentials.php:2364
+msgid "Font Weight"
+msgstr ""
+
+#: ozy-salon-essentials.php:2372
+msgid "Type Speed"
+msgstr ""
+
+#: ozy-salon-essentials.php:2375
+msgid "Typing Speed"
+msgstr ""
+
+#: ozy-salon-essentials.php:2381
+msgid "Start Delay"
+msgstr ""
+
+#: ozy-salon-essentials.php:2384
+msgid "Time before typing starts"
+msgstr ""
+
+#: ozy-salon-essentials.php:2390
+msgid "Back Speed"
+msgstr ""
+
+#: ozy-salon-essentials.php:2393
+msgid "Backspacing speed"
+msgstr ""
+
+#: ozy-salon-essentials.php:2399
+msgid "Back Delay"
+msgstr ""
+
+#: ozy-salon-essentials.php:2402
+msgid "Time before backspacing"
+msgstr ""
+
+#: ozy-salon-essentials.php:2408
+msgid "Loop"
+msgstr ""
+
+#: ozy-salon-essentials.php:2411
+msgid "The whole typing is loop or not"
+msgstr ""
+
+#: ozy-salon-essentials.php:2435
+msgid "Line"
+msgstr ""
+
+#: ozy-salon-essentials.php:2444
+msgid "Typewriter Line"
+msgstr ""
+
+#: ozy-salon-essentials.php:2447
+msgid ""
+"Add ^1000 between the words if you like add 1000ms delay to before the next "
+"word. Example: First ^1000 sentence."
+msgstr ""
+
+#: ozy-salon-essentials.php:2497
+msgid "Custom Google Map"
+msgstr ""
+
+#: ozy-salon-essentials.php:2511
+msgid ""
+"<a href=\"http://freevision.me/google-maps-key/\" target=\"_blank\">Learn "
+"how to get an API Key.</a>"
+msgstr ""
+
+#: ozy-salon-essentials.php:2516 ozy-salon-essentials.php:3424
+msgid "Height"
+msgstr ""
+
+#: ozy-salon-essentials.php:2524
+msgid "Address"
+msgstr ""
+
+#: ozy-salon-essentials.php:2527
+msgid "Melbourne, Australia"
+msgstr ""
+
+#: ozy-salon-essentials.php:2540
+msgid "Zoom Level"
+msgstr ""
+
+#: ozy-salon-essentials.php:2548
+msgid "Custom Icon"
+msgstr ""
+
+#: ozy-salon-essentials.php:2550
+msgid "You can select a custom icon for your pin on the map"
+msgstr ""
+
+#: ozy-salon-essentials.php:2556
+msgid "Hue Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:2564
+msgid "Saturation"
+msgstr ""
+
+#: ozy-salon-essentials.php:2572
+msgid "Lightness"
+msgstr ""
+
+#: ozy-salon-essentials.php:2608
+msgid "Count To"
+msgstr ""
+
+#: ozy-salon-essentials.php:2623
+msgid "Counter title."
+msgstr ""
+
+#: ozy-salon-essentials.php:2627
+msgid "From"
+msgstr ""
+
+#: ozy-salon-essentials.php:2631
+msgid "Counter start from"
+msgstr ""
+
+#: ozy-salon-essentials.php:2635
+msgid "To"
+msgstr ""
+
+#: ozy-salon-essentials.php:2639
+msgid "Counter count to"
+msgstr ""
+
+#: ozy-salon-essentials.php:2643
+msgid "Sign"
+msgstr ""
+
+#: ozy-salon-essentials.php:2647
+#, php-format
+msgid "Enter a sign like % or whatever you like"
+msgstr ""
+
+#: ozy-salon-essentials.php:2650
+msgid "Sign Position"
+msgstr ""
+
+#: ozy-salon-essentials.php:2654
+msgid "Select position of your sign."
+msgstr ""
+
+#: ozy-salon-essentials.php:2657
+msgid "Forecolor"
+msgstr ""
+
+#: ozy-salon-essentials.php:2728
+msgid "Team Member - Extended"
+msgstr ""
+
+#: ozy-salon-essentials.php:2738 ozy-salon-essentials.php:3240
+msgid "Member Image"
+msgstr ""
+
+#: ozy-salon-essentials.php:2750 ozy-salon-essentials.php:3252
+msgid "Title for your Team Member, like a name."
+msgstr ""
+
+#: ozy-salon-essentials.php:2758
+msgid "Sub Title for your Team Member, like work title."
+msgstr ""
+
+#: ozy-salon-essentials.php:2769
+msgid "Twitter"
+msgstr ""
+
+#: ozy-salon-essentials.php:2773
+msgid "Enter your Twitter account name"
+msgstr ""
+
+#: ozy-salon-essentials.php:2777
+msgid "Facebook"
+msgstr ""
+
+#: ozy-salon-essentials.php:2781
+msgid "Enter your Facebook account name"
+msgstr ""
+
+#: ozy-salon-essentials.php:2785
+msgid "LinkedIn"
+msgstr ""
+
+#: ozy-salon-essentials.php:2789
+msgid "Enter your LinkedIn account name"
+msgstr ""
+
+#: ozy-salon-essentials.php:2793
+msgid "Pinterest"
+msgstr ""
+
+#: ozy-salon-essentials.php:2797
+msgid "Enter your Pinterest account name"
+msgstr ""
+
+#: ozy-salon-essentials.php:2805
+msgid "Define a path to details page"
+msgstr ""
+
+#: ozy-salon-essentials.php:2808 ozy-salon-essentials.php:3269
+msgid "Use Extended Content"
+msgstr ""
+
+#: ozy-salon-essentials.php:2811
+msgid "Link will be used in extended content when this option used."
+msgstr ""
+
+#: ozy-salon-essentials.php:2814 ozy-salon-essentials.php:3283
+msgid "Extended Content"
+msgstr ""
+
+#: ozy-salon-essentials.php:2822 ozy-salon-essentials.php:3276
+#: ozy-salon-essentials.php:3439
+msgid "Link Caption"
+msgstr ""
+
+#: ozy-salon-essentials.php:2825
+msgid "BOOK ME NOW"
+msgstr ""
+
+#: ozy-salon-essentials.php:2853
+msgid "Icon Wrapper"
+msgstr ""
+
+#: ozy-salon-essentials.php:3020
+msgid "Order by"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Date"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "ID"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Author"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Modified"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Random"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Comment count"
+msgstr ""
+
+#: ozy-salon-essentials.php:3022
+msgid "Menu order"
+msgstr ""
+
+#: ozy-salon-essentials.php:3023
+msgid "Select how to sort retrieved posts."
+msgstr ""
+
+#: ozy-salon-essentials.php:3027
+msgid "Order way"
+msgstr ""
+
+#: ozy-salon-essentials.php:3029
+msgid "Descending"
+msgstr ""
+
+#: ozy-salon-essentials.php:3029
+msgid "Ascending"
+msgstr ""
+
+#: ozy-salon-essentials.php:3030
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: ozy-salon-essentials.php:3230
+msgid "Team Member (Simple)"
+msgstr ""
+
+#: ozy-salon-essentials.php:3272
+msgid ""
+"Link will be ignored when extended content used to display in page content."
+msgstr ""
+
+#: ozy-salon-essentials.php:3279
+msgid "availability"
+msgstr ""
+
+#: ozy-salon-essentials.php:3317
+msgid "Instagram Feed"
+msgstr ""
+
+#: ozy-salon-essentials.php:3327
+msgid "Username"
+msgstr ""
+
+#: ozy-salon-essentials.php:3334
+msgid "Number Of Items"
+msgstr ""
+
+#: ozy-salon-essentials.php:3341
+msgid "Access Token Key"
+msgstr ""
+
+#: ozy-salon-essentials.php:3398
+msgid "Call To Action Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:3419
+msgid "Box Title"
+msgstr ""
+
+#: ozy-salon-essentials.php:3442
+msgid "SHOP USED EQUIPMENT &rarr;"
+msgstr ""
+
+#: ozy-salon-essentials.php:3531
+msgid "Canvas Slider"
+msgstr ""
+
+#: ozy-salon-essentials.php:3594
+msgid "Pointy Slider"
+msgstr ""
+
+#: ozy-salon-essentials.php:3674
+msgid "Pointy Slider Item"
+msgstr ""
+
+#: ozy-salon-essentials.php:3690
+msgid "or Self Hosted MP4 file path"
+msgstr ""
+
+#: ozy-salon-essentials.php:3693
+msgid ""
+"When this option is set, Image field will be used as a fallback image, so "
+"please fill Image field too."
+msgstr ""
+
+#: ozy-salon-essentials.php:3724
+msgid "Tag"
+msgstr ""
+
+#: ozy-salon-essentials.php:3730
+msgid "Sub Title and Tag Color"
+msgstr ""
+
+#: ozy-salon-essentials.php:3800
+msgid "Blockquote Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:3818
+msgid "Quote"
+msgstr ""
+
+#: ozy-salon-essentials.php:3832
+msgid "Sub Title #1"
+msgstr ""
+
+#: ozy-salon-essentials.php:3839
+msgid "Sub Title #2"
+msgstr ""
+
+#: ozy-salon-essentials.php:3906
+msgid "Padding Box"
+msgstr ""
+
+#: ozy-salon-essentials.php:3933
+msgid "Padding Top"
+msgstr ""
+
+#: ozy-salon-essentials.php:3941
+msgid "Padding Right"
+msgstr ""
+
+#: ozy-salon-essentials.php:3949
+msgid "Padding Bottom"
+msgstr ""
+
+#: ozy-salon-essentials.php:3957
+msgid "Padding Left"
+msgstr ""
+
+#: ozy-salon-essentials.php:3976
+msgid "Border Width"
+msgstr ""

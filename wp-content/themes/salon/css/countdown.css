@@ -1,0 +1,150 @@
+/**
+* Countdown Template
+*/
+.post>div:not(.featured-thumbnail):not(.post-meta):not(.post-submeta):not(#single-blog-tags):not(.carousel) {
+	padding-left:0;
+	padding-right:0;
+}
+body.page-template-page-countdown-php {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+body.page-template-page-countdown-php #main {
+	-ms-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate(0, 0);
+	-ms-transition: -ms-transform 0.28s ease-in-out;
+	-moz-transition: -moz-transform 0.28s ease-in-out;
+	-webkit-transition: -webkit-transform 0.28s ease-in-out;
+	transition: transform 0.28s ease-in-out;
+	position: relative;
+}
+body.page-template-page-countdown-php #content {
+	width:100%;
+}
+body.page-template-page-countdown-php #ozycounter {
+	width:100%;
+	padding-top: 130px;
+	position:relative;
+	z-index: 1;
+}
+body.page-template-page-countdown-php #ozycounter h1,
+body.page-template-page-countdown-php #ozycounter p{
+	font-family:"Teko", "Arial Black", sans-serif;	
+	color: #fff !important;
+	text-align: center;
+}
+body.page-template-page-countdown-php #ozycounter h1 {
+	font-size:5vw;
+}
+body.page-template-page-countdown-php .post-content {
+	margin-top:30px !important;	
+	text-align:center;
+}
+body.page-template-page-countdown-php #ozycounter #counter {
+	margin-top:30px;
+	display:inline-block;
+}
+body.page-template-page-countdown-php #ozycounter .desc>div {
+	width:25%;
+	text-align:center;
+	float:left;
+}
+body.page-template-page-countdown-php #ozycounter #counter .cntSeparator {
+	font-size:32px;
+	font-weight:700;
+	color:#fff;
+	margin:0 10px;
+	line-height:71px;
+}
+body.page-template-page-countdown-php #trees {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../images/assets/trees2.png) no-repeat top center;
+	background-size:cover;
+}
+body.page-template-page-countdown-php #social-icons {
+	width:100%;
+	margin-top:45px;
+}
+body.page-template-page-countdown-php #social-icons>a {
+	width:36px;
+	height:36px;
+	margin:0 5px;
+	padding-top: 1px;
+	border-radius:50%;
+	background-color:#fff;
+	color:#000;
+}
+body.page-template-page-countdown-php #social-icons>a>span {
+	opacity:1;	
+}
+body.page-template-page-countdown-php #timer {
+	width:100%;
+	margin-top:60px;
+}
+body.page-template-page-countdown-php #timer>div{
+	display:inline-block;
+	font-family:"Teko", "Arial Black", sans-serif;
+}
+body.page-template-page-countdown-php #timer>div>.time {
+	font-size: 5vw;
+	line-height:.2em;
+	color:#fff;
+	font-weight:500;
+}
+body.page-template-page-countdown-php #timer>div>.time>div {
+	padding:70px 50px 50px 50px;
+}
+body.page-template-page-countdown-php #timer>div>div {
+	border:2px solid #fff;
+	border-radius:5px;
+	margin:0 5px 0 5px;	
+}
+body.page-template-page-countdown-php #timer>div>.time>span {
+	display:inline-block;	
+	width:100%;
+	border-top:2px solid #fff;
+    line-height: 2em;
+	font-size:1.5vw;
+}
+div#social-icons {
+	display:inline-block;
+	text-align:center;
+	height:30px;
+}
+div#social-icons>a {
+	display: inline-block;
+	text-align:center !important;
+	text-decoration: none !important;
+	overflow: hidden;
+	width:30px;
+	height:29px; /*1px smallar to prevent line conflict with parent*/
+}
+@media only screen and (max-width: 800px) {
+	body.page-template-page-countdown-php #ozycounter {
+		padding-top:0;
+	}
+	body.page-template-page-countdown-php #timer>div>.time>span {
+		font-size:14px;
+	}	
+}
+@media only screen and (max-width: 479px) {
+	body.page-template-page-countdown-php #ozycounter {
+		padding-top:80px;
+	}	
+	body.page-template-page-countdown-php #timer>div{
+		width:40%;
+		margin-bottom:10px;
+	}
+	body.page-template-page-countdown-php #timer>div>.time {
+		font-size:32px;
+	}
+	body.page-template-page-countdown-php #timer>div>.time>div {
+		padding: 40px 40px 30px 40px;
+	}	
+}

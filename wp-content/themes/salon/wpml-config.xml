@@ -1,0 +1,27 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">description</custom-field>
+		<custom-field action="translate">keywords</custom-field>
+		<custom-field action="copy">menu-item-style</custom-field>
+		<custom-field action="copy">original_post_id</custom-field>
+		<custom-field action="translate">ozy_salon_meta_font</custom-field>
+		<custom-field action="translate">ozy_salon_meta_page</custom-field>
+		<custom-field action="translate">ozy_salon_meta_page_blog</custom-field>
+		<custom-field action="copy">pre_import_post_id</custom-field>
+		<custom-field action="copy">pre_import_post_parent</custom-field>
+		<custom-field action="copy">standard_seo_post_meta_description</custom-field>
+		<custom-field action="translate">title</custom-field>
+		<custom-field action="translate">vc_teaser</custom-field>
+		<custom-field action="copy">_menu_item_classes</custom-field>
+		<custom-field action="copy">_menu_item_menu_item_parent</custom-field>
+		<custom-field action="copy">_menu_item_object</custom-field>
+		<custom-field action="copy">_menu_item_object_id</custom-field>
+		<custom-field action="copy">_menu_item_target</custom-field>
+		<custom-field action="copy">_menu_item_type</custom-field>
+		<custom-field action="copy">_menu_item_url</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="0">ozy_sidebars</custom-type>
+		<custom-type translate="0">ozy_fonts</custom-type>		
+	</custom-types>
+</wpml-config>

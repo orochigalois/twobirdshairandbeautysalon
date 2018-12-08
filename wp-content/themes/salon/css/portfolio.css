@@ -1,0 +1,389 @@
+.wpb_wrapper.isotope.column-3>.ozy_portfolio{width:33.333%;}
+.wpb_wrapper.isotope.column-4>.ozy_portfolio{width:25%;}
+.wpb_wrapper.isotope>.ozy_portfolio{
+	margin:0 !important;
+	padding:0 !important;
+	float:left;
+	clear:none !important;
+	border-right:20px solid transparent;
+	border-bottom:20px solid transparent;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.caption{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail {margin:0 !important;}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption {
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding:25px 30px 30px 30px;
+	background-color:rgba(0,0,0,0.8);
+	opacity:0;
+	-webkit-transition: all .4s;
+	transition: all .4s;	
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.border {
+	width:60px;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	height:2px;
+	margin:15px 0;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.border>span{
+	display:block;
+	height:1px;
+	width:20px;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.heading{
+	line-height:1.2em!important;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.heading,
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.heading>a {
+	text-decoration:none !important;
+	margin:0 !important
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>p {
+	display:inline-block;
+	font-weight:700;
+	font-size:10px;
+	text-transform:uppercase;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail {cursor: pointer;}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail:hover>.caption,
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail:focus>.caption {opacity:1;}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.plus-icon>img{
+	display:none;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.plus-icon {
+	position:absolute;
+	width:28px;
+	height:28px;
+	right:0;
+	bottom:0;
+	background-color:#dedede;
+	text-align:center;
+	line-height:28px;
+	text-decoration:none;
+}
+.wpb_wrapper.isotope>.ozy_portfolio>.featured-thumbnail>.caption>.plus-icon>i {
+	font-size:16px;
+	line-height:34px;
+}
+/*page layout*/
+body.page-template-page-portfolio #main>.container {
+	padding-left:0!important;
+	padding-right:0!important;
+}
+body.page-template-page-portfolio #main>.container>#content {
+	max-width: 100% !important;
+	width: 100% !important;
+	padding: 0 20px 40px 40px;
+}
+/*filter bar*/
+#portfolio-filter{
+	display:table;
+	list-style:none;
+	margin:0 auto 30px auto;
+	padding:0 20px 0 0;
+}
+#portfolio-filter.component-model.filter-align-left {
+	display:inline-block;
+	margin:0 0 30px 0;
+}
+#portfolio-filter>li.s{
+	display:table-cell;
+	width:1px;
+	background-color:transparent !important;
+	padding:0 !important;
+}
+#portfolio-filter>li {
+	/*display:table-cell;*/
+	display:inline-block;
+	/*padding:16px 20px;*/
+	margin:16px 12px;
+	/*background-color:#30303c;*/
+	line-height:1em;
+}
+#portfolio-filter.component-model>li {display:inline-block;}
+#portfolio-filter>li.active{
+	border-bottom:2px solid yellow;
+	padding-bottom:2px;
+}
+#portfolio-filter>li>a {
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	color:#fff;
+}
+#portfolio-filter>li>a:hover,
+#portfolio-filter>li.active>a {opacity:.6}
+/*component*/
+.ozy-portfolio-listing{
+	position:relative;
+	margin-bottom:35px;	
+	/*margin-left:-20px;*/
+}
+.wpb_wrapper.custom-gutter.isotope.ozy-portfolio-listing{width:calc(100% + 20px);}
+
+.wpb_wrapper.custom-gutter.isotope.ozy-portfolio-listing>div {margin-bottom:20px !important;}
+
+.wpb_wrapper.custom-gutter.isotope.column-3>.grid-sizer,
+.wpb_wrapper.custom-gutter.isotope.column-3.ozy-portfolio-listing>.ozy_portfolio {width:calc(33.333% - 20px);}
+
+.wpb_wrapper.custom-gutter.isotope.column-4>.grid-sizer,
+.wpb_wrapper.custom-gutter.isotope.column-4.ozy-portfolio-listing>.ozy_portfolio {width:calc(25% - 20px);}
+
+.wpb_wrapper.custom-gutter.isotope.ozy-portfolio-listing .gutter-sizer { width:20px; }
+/*.ozy-portfolio-listing>div>*/
+.wpb_wrapper.isotope.ozy-portfolio-listing>.ozy_portfolio{border:none !important;}
+/*details page*/
+.facts-bar {
+	border:1px solid #dedede;
+	border-radius:4px;
+	display:inline-block;
+	padding-bottom:10px;
+}
+.facts-bar .heading {
+	border-bottom:1px solid #dedede;
+	padding:10px 30px;
+}
+.facts-bar ul {padding:0 30px;}
+.facts-bar ul li{
+	list-style:none;
+	float:left;
+	width:33.333%;
+	line-height:30px;
+	font-size:12px;
+}
+.facts-bar ul li i {padding-right:5px;}
+body.single-ozy_portfolio .post-content h4 {
+	/*display:block;
+	width:100%;
+	float:left;*/
+ 	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;	
+	display:flex;
+	border-bottom:1px solid #dedede;
+	padding-top:20px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	position:relative;
+}
+body.single-ozy_portfolio .post-content h4:first-child {
+	padding-top:0 !important;
+}
+body.single-ozy_portfolio .post-content h4:before {
+	position:absolute;
+	display:inline-block;
+	bottom:-1px;
+	width:100px;
+	height:1px;
+	background-color:red;
+	content:' ';
+}
+body.single-ozy_portfolio .post .post-content {
+	margin-top:30px !important;
+}
+/*body.single-ozy_portfolio .post-content h4:after {
+	content:' ';
+	clear:both;
+}*/
+@media only screen and (max-width: 820px) {
+	#portfolio-filter{
+		padding:0;
+		margin-top: 30px;
+	}
+	#portfolio-filter>li{
+		width:100%;
+		float:left;
+	}
+	.wpb_wrapper.isotope.column-3>.ozy_portfolio{width:50%}
+	.wpb_wrapper.custom-gutter.isotope.column-3>.grid-sizer,
+	.wpb_wrapper.custom-gutter.isotope.column-3.ozy-portfolio-listing>.ozy_portfolio,
+	.wpb_wrapper.custom-gutter.isotope.column-4>.grid-sizer,
+	.wpb_wrapper.custom-gutter.isotope.column-4.ozy-portfolio-listing>.ozy_portfolio {width:calc(50% - 20px);}	
+	.facts-bar ul li{width:50%;}
+}
+@media only screen and (max-width: 479px) {
+	.wpb_wrapper.isotope.column-4>.ozy_portfolio,
+	.wpb_wrapper.isotope.column-3>.ozy_portfolio {
+		width:100%;
+		border-right:none;
+	}
+	.wpb_wrapper.custom-gutter.isotope.column-3>.grid-sizer,
+	.wpb_wrapper.custom-gutter.isotope.column-3.ozy-portfolio-listing>.ozy_portfolio,
+	.wpb_wrapper.custom-gutter.isotope.column-4>.grid-sizer,
+	.wpb_wrapper.custom-gutter.isotope.column-4.ozy-portfolio-listing>.ozy_portfolio {width:calc(100% - 20px);}	
+	.facts-bar ul li{width:100%;}
+}
+
+/*.load_more_blog {
+	display:block;
+	margin-top:20px;
+	padding:14px 0;
+	cursor:pointer;
+	border:2px solid #000:;
+	color:#000;
+	font-size:14px !important;
+	text-align:center;		
+	width: calc(100% - 20px);
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;	
+}*/
+
+/* Load More Button */
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+	padding-top:20px;
+ /* padding: 20vh 0;*/
+}
+
+/*  -----------------------------------------
+    :: Button Styles
+    -------------------------------------- */
+.button-container .button {
+	position: relative;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	-webkit-transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	color: currentColor;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin: 0;
+	padding: 0.875em 1.428571429em;
+	letter-spacing: 0.3em;
+}
+.button-container .button::after {
+	content: '';
+	width: 80%;
+	left: 50%;
+	height: 1px;
+	bottom: 0;
+	-webkit-transform: translatex(-50%);
+		  transform: translatex(-50%);
+	-webkit-transition: width 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: width 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	display: block;
+	position: absolute;
+	background: currentColor;
+}
+.button-container .button span {
+	display: block;
+	position: absolute;
+	-webkit-transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.button-container .button span::before,.button-container .button span::after {
+	content: '';
+	display: block;
+	position: absolute;
+	background: currentColor;
+	-webkit-transition: -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	transition: -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9), -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
+.button-container .button span:first-child {height: 100%;}
+.button-container .button span:first-child::before,.button-container .button span:first-child::after {
+	width: 1px;
+	height: 100%;
+	bottom: 0;
+	-webkit-transform: scale3d(1, 0, 1);
+		  transform: scale3d(1, 0, 1);
+	-webkit-transform-origin: bottom center;
+		  transform-origin: bottom center;
+	-webkit-transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+	transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+}
+.button-container .button span:first-child::before {left: 0;}
+.button-container .button span:first-child::after {right: 0;}
+.button-container .button span:last-child {
+	width: 100%;
+	height: 1px;
+}
+.button-container .button span:last-child::before, .button-container .button span:last-child::after {
+	height: 1px;
+	width: 100%;
+	bottom: 0;
+	-webkit-transform: scale3d(0, 1, 1);
+		  transform: scale3d(0, 1, 1);
+	-webkit-transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+}
+.button-container .button span:last-child::before {
+	left: 0;
+	-webkit-transform-origin: bottom left;
+		  transform-origin: bottom left;
+}
+.button-container .button span:last-child::after {
+	right: 0;
+	-webkit-transform-origin: bottom right;
+		  transform-origin: bottom right;
+}
+.button-container .button:hover {
+	opacity: 1;
+	outline: 0;
+	/*color: currentColor;*/
+	text-decoration: none;
+	-webkit-transition: color 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: color 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	/* Positioning */
+}
+.button-container .button:hover::after {
+	width: 100%;
+	background: currentColor;
+	-webkit-transition: width 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: width 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+}
+.button-container .button:hover span:first-child::before, .button-container .button:hover span:first-child::after {
+	-webkit-transform: scale3d(1, 1, 1);
+		  transform: scale3d(1, 1, 1);
+	background: currentColor;
+	-webkit-transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+	transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.2s;
+}
+.button-container .button:hover span:last-child::before, .button-container .button:hover span:last-child::after {
+	-webkit-transform: scale3d(1, 1, 1);
+		  transform: scale3d(1, 1, 1);
+	background: currentColor;
+	-webkit-transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s;
+	transition: background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+	transition: transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s, background 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s, -webkit-transform 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9) 0.4s;
+}
+/*.button-container .button:focus {
+	background: #232F39;
+	color: white !important;
+	-webkit-transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+	transition: all 0.2s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
+.button-container .button:focus::after {opacity: 0;}*/
