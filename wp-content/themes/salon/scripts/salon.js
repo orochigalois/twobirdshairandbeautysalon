@@ -807,7 +807,7 @@ jQuery(document).ready(function($) {
 				data: {count: num_photos, access_token: accesstoken},
 				success: function(data2){
 					for(var i = 0; i < data2.data.length; i++) {
-						$(element).append('<li><a href="'+ data2.data[i].link +'" target="_blank"><img src="'+data2.data[i].images.thumbnail.url+'"></a></li>');  
+						$(element).append('<li><a href="'+ data2.data[i].link +'" target="_blank"><img src="'+data2.data[i].images.standard_resolution.url+'"><div class="instagram-info"><h3 class="instagram-like">'+data2.data[i].likes.count+'</h3><p class="instagram-content">'+data2.data[i].caption.text+'</p></div></a></li>'); 
 					}
 				},
 				error: function(data2){

@@ -19,18 +19,14 @@
 				?>
                 <div id="footer-widget-bar" class="widget">                
                     <div class="container">
-                        <section class="widget-area">
-                            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("ozy-footer-widget-bar-one" . $tmp_lang) ) : ?><?php endif; ?>
-                        </section>
+                        
                         <section class="widget-area">
                             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("ozy-footer-widget-bar-two" . $tmp_lang) ) : ?><?php endif; ?>
                         </section>
                         <section class="widget-area">
                             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("ozy-footer-widget-bar-three" . $tmp_lang) ) : ?><?php endif; ?>
                         </section>
-                        <section class="widget-area">
-                            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("ozy-footer-widget-bar-four" . $tmp_lang) ) : ?><?php endif; ?>
-                        </section>                                                
+                                                                      
                     </div><!--.container-->                     
                 </div><!--#footer-widget-bar-->
                 <?php } ?>
@@ -48,7 +44,7 @@
 								salon_header_social_icons();
 								echo '</div>' . PHP_EOL;
 							}
-                        ?>
+                        ?>                       
                     </div><!--.container-->
                 </footer></div><!--#footer-->
                 <?php } ?>
