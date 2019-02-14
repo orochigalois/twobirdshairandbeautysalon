@@ -3910,6 +3910,24 @@ div.ozy-google-map { /*mac safari fix*/
 	font-size: 16px;
 	margin-top:30px;
 }
+
+.wpb_wrapper .ozy-testimonial-quote .ozy-quote-container:before {
+	background-image: url(images/5-stars.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 200px;
+	height: 75px;
+	content: "";
+	display: block;
+	position: relative;
+}
+
+@media screen and (max-width:479px) {
+	.wpb_wrapper .ozy-testimonial-quote .ozy-quote-container:before {
+		width: 100px;
+		height: 50px;
+	}
+}
 .ozy-testimonial-quote blockquote {
 	border: 0;
 	margin: 0;
@@ -3958,6 +3976,7 @@ div.ozy-google-map { /*mac safari fix*/
 	font-size: .8em;
 	margin-top:15px;
 	padding-left:20px !important;
+	text-align: right;
 }
 .ozy-testimonial-quote cite br {margin:0 !important;}
 .ozy-testimonial-quote cite span {
