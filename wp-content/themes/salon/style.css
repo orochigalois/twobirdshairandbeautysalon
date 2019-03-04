@@ -2582,6 +2582,7 @@ body.navigation-is-open .lang-switcher-booking-button-wrapper {
 	}
 	.salon-nav .salon-primary-nav a {
 		font-size: 4.4rem;
+		text-transform: uppercase;
 	}
 	.salon-nav .salon-contact-info {
 		margin-top: 120px;
@@ -3915,8 +3916,8 @@ div.ozy-google-map { /*mac safari fix*/
 	background-image: url(images/5-stars.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 200px;
-	height: 75px;
+	width: 100px;
+	height: 50px;
 	content: "";
 	display: block;
 	position: relative;
@@ -3935,7 +3936,7 @@ div.ozy-google-map { /*mac safari fix*/
 	background: none;
 	color: gray;
 	font-family: Georgia, serif;
-	font-size: 1.5em;
+	font-size: 20px;
 	font-style: italic;
 	line-height: 1.4 !important;
 	margin: 0;
